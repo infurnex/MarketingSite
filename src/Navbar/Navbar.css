@@ -1,0 +1,23 @@
+.navbar-div{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+}
+.navbar-div>p{
+    margin: 0;
+    font-size: max(18px,1.3vw);
+    /* margin-right: 10px; */
+    padding: 10px;
+}
+.navbar-div>p:hover{
+    background-color: orangered;
+    color: white;
+}
+.navbar-div-collections{
+    display: flex;
+    flex-direction: column;
+}
