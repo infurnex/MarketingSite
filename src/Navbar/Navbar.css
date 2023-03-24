@@ -3,7 +3,7 @@
     justify-content: right;
     width: 100%;
     position: fixed;
-    z-index: 1000;
+    z-index: 1;
     background-color: white;
     box-shadow: 0 0 10px black;
 }
