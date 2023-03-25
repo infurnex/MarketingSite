@@ -13,7 +13,7 @@ export const Displaycollections = React.forwardRef( (props, ref) => {
     const arraydis = current_collection.map((elm,index) => {return(
         <div key={index} className='dc-cards' onClick={() => {setisopen(true); setcardnum(index)}}>
             <div className='dc-cards-img'>
-                <img src={elm.pic} >
+                <img src={elm.pic} alt=''>
                 </img>
                 <div>
                 {elm.name}

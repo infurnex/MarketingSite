@@ -7,7 +7,7 @@ export default function Modal(props) {
         <div className='modal-main'>
           <div className='modal-main-real'>
             <div className='modal-main-img'>
-              <img src={props.carddetails.pic}>
+              <img src={props.carddetails.pic} alt=''>
               </img>
               <div onClick={() => { props.setopen(false)}}>
                 close

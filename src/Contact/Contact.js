@@ -14,13 +14,13 @@ export const Contact = React.forwardRef((props,ref) =>{
       <div>
       <a href='https://goo.gl/maps/NF98ZkphSk6HoNMk9'>
       <div className='CM-map'>
-        <img src={mapimg}/>
+        <img src={mapimg} alt=''/>
       </div>
       </a>
       <div className='CM-info'>
         <div>
             <div >
-              <img className='CM-info-mail' src={maillogo} ></img>
+              <img className='CM-info-mail' src={maillogo} alt=''></img>
 
             </div>            
             <div>
@@ -32,7 +32,7 @@ export const Contact = React.forwardRef((props,ref) =>{
         </div>
         <div>
             <div >
-              <img className='CM-info-phone' src={phonelogo}></img>
+              <img className='CM-info-phone' src={phonelogo} alt=''></img>
             </div>
             <div>
                 Call us

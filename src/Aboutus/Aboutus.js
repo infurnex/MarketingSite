@@ -7,7 +7,7 @@ export  const Aboutus = React.forwardRef((props , ref) =>{
     <div className='am' ref={ref}>
       <div className='am-owner' >
         <div>
-          <img src={owner} className='owner-imp'>
+          <img src={owner} alt='' className='owner-imp'>
           </img>
         </div>
         <div >
